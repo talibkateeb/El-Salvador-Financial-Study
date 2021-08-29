@@ -180,7 +180,7 @@ Be sure to activate your Conda `dev` environment if it is not already active.
 your cryptocurrency to from the appropriate drop-down menu. Then, enter the amoutn in USD or native fiat 
 currency where the friend or family lives.
 
-4 Click the Send Transaction button to sign and send the transaction with
+4. Click the Send Transaction button to sign and send the transaction with
 your Ethereum account information. If the transaction is successfully
 communicated to the Ethereum Kovan testnet, validated, and added to a block,
 a resulting transaction hash code will be written to the Streamlit
