@@ -69,7 +69,7 @@ def get_people():
         st.write("Name: ", db_list[number][0])
         st.write("Ethereum Account Address: ", db_list[number][1])
         st.write("Location:", db_list[number][2])
-        st.write("USD conversation rate ", db_list[number][3], "eth")
+        st.write("currency conversation rate: ", db_list[number][3], "eth")
         st.text(" \n")
        
 
@@ -213,7 +213,7 @@ get_people()
 #your cryptocurrency to from the appropriate drop-down menu. Then, enter the amoutn in USD or native fiat 
 # currency where the friend or family lives.
 
-# 4 Click the Send Transaction button to sign and send the transaction with
+# 4. Click the Send Transaction button to sign and send the transaction with
 # your Ethereum account information. If the transaction is successfully
 # communicated to the Ethereum Kovan testnet, validated, and added to a block,
 # a resulting transaction hash code will be written to the Streamlit
