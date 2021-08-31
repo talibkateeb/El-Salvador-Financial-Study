@@ -174,7 +174,7 @@ ___
 your `.env` file and the `crypto_remittance_app.py` and `crypto_wallet.py` files.
 Be sure to activate your Conda `dev` environment if it is not already active.
 
-2. To launch the Streamlit application, type `crypto_remittance_app.py`.
+2. To launch the Streamlit application, type `streamlit run crypto_remittance_app.py`.
 
 3. On the resulting webpage, select a friend or family that you would like to send 
 your cryptocurrency to from the appropriate drop-down menu. Then, enter the amoutn in USD or native fiat 
