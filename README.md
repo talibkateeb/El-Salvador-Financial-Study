@@ -1,7 +1,6 @@
 # El SALVADOR FINANCIAL STUDY
 ### A Machine Learning and Cryptocurrency Wallet Project
 ___
-Under Construction
 
 ![672z311_1624612536_2021-06-25-10-15-36_bd8d86a1a8305bb40f40338ca257baad](https://user-images.githubusercontent.com/80144026/131263588-f9b3eb17-8d15-4811-a86d-4542a0b3d1ce.jpg)
 
@@ -9,51 +8,65 @@ Under Construction
 
 ## Presentation with Results and Analysis
 
-[Click here to view our full presentation with the results and analysis]
-
-___
-
-## Executive Summary
-UNDER CONSTRUCTION
-
-___
-
-## Project Goals 
-UNDER CONSTRUCTION
+[Click here to view our full presentation with the results, analysis, and graphs!](https://prezi.com/view/EQjzqC6LXpAA5Wk5q0t5/)
 
 ___
 
 ## Project Sections 
 
-* MACHINE LEARNING ANALYSIS 
-* CRYPTO CURRENCY REMITTANCE APP
+* Time Series Forecasting  
+* Crypto Currency Remittance App
 
 ___
 
-## Machine Learning Models
+## Machine Learning/Time Series Models
 
-* Supervised Learning: Logistic Regression
-* Time Series: Facebook Prophet
+- Prophet
+- Theta
+- Linear Regression
+- Fast Fourier Transform
 
 ___
 
 ## Data Collection Source
 
-UNDER CONSTRUCTION
+* The World Bank
+
+* Statista
+
+* Trading Economics
 ___
 
 ## Results and Analysis 
 
-UNDER CONSTRUCTION
+- The inflation dataset had extremely high values for MAPE and almost zero values for MSE across all models, indicating overfitting. 
+
+- Gross National Income Dataset had extremely high values for MSE indicating very high variance/bias
+
+- Gini Index dataset: Prophet model performed the best, we use that to perfrom the forecast, it performed better on training set split before 2010
+
+- GDP: Linear Regression performs the best on training set split before 2005 
+
 
 ___
 
 ## Conclusion
 
+El Salvador Bitcoin Law on September 7th, 2021
+
+Based on the forecast we trust the most, the income equality in El Salvador should be dropping. Will the change in currency deter or speed up that outcome?
+
 ___
 
 ## Next Steps
 
+Remittance App, to add functionalities like pull info from social media accounts, and currency conversion.
+
+Acquire more data for forecasting.
+
+Hyperparameter optimization for models evaluated.
+
+Revisit our analysis in a few years.
 ___
 
 ## Technologies
@@ -71,6 +84,7 @@ This project is written in Python within the Jupyter Lab environment  and VS Cod
 * mnemonic
 * bip44
 * Infura API https://infura.io
+* Darts
 
 ___
 
@@ -89,6 +103,11 @@ pip install numpy
 ```python
 pip install -U scikit-learn
 ```
+* Darts from PYPI
+```python
+pip install darts
+```
+
 * HVPLOT using Conda. Best practice, use an environment rather than install in the base env
  ```python
  conda activate dev 
@@ -203,3 +222,7 @@ transaction details
 ___
 
 ## License
+
+[Click here to view MIT License](https://github.com/talibkateeb/El-Salvador-Financial-Study/blob/main/LICENSE)
+
+
