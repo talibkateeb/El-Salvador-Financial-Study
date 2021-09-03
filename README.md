@@ -25,8 +25,11 @@ ___
 
 ## Project Sections
 
-PART ONE: We analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation.
-PART TWO: We surveyed the Remittance market in El Salvador, identified a problem and created a possible solution: A crypto remittance application to lower the  cost for the remittance senders and increase the remittance income of the people of El Salvador, which will increase benificiary spending which lifts the economy as a direct result.
+PART ONE: 
+We analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation.
+
+PART TWO: 
+We surveyed the Remittance market in El Salvador, identified a problem and created a possible solution: A crypto remittance application to lower the  cost for the remittance senders and increase the remittance income of the people of El Salvador, which will increase benificiary spending which will positively impact the country's economy.
 
 ___
 
