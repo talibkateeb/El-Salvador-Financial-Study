@@ -19,17 +19,19 @@ In 2001, El Salvador adopted the Dollarization, which allowed the  US dollar to 
 
 On September 7th, 2021, which is only 5 days from now, El Salvador will be the first nation in the world to adopt Bitcoin as one of their legal tenders.
 
-We chose  to study El Salvador because we’re very interested in how the Dollariation impacted its economy and what the Bitcoin adoption will bring to the country's economy moving forward.
+We chose  to study El Salvador because we’re very interested in how the Dollariation impacted its economy and what the Bitcoin adoption will bring to the country moving forward.
 
 ___
 
 ## Project Sections
 
 PART ONE: 
+
 We analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation.
 
 PART TWO: 
-We surveyed the Remittance market in El Salvador, identified a problem and created a possible solution: A crypto remittance application to lower the  cost for the remittance senders and increase the remittance income of the people of El Salvador, which will increase benificiary spending which will positively impact the country's economy.
+
+We surveyed the Remittance market in El Salvador, identified a problem and created a possible solution: A crypto remittance application to lower the  cost for the remittance senders and increase the remittance income of the people of El Salvador, increase benificiary spending which will positively impact the country's economy.
 
 ___
 
@@ -45,12 +47,81 @@ ___
 
 ## PART ONE: Data Analysis and Forecasting
 
-### Machine Learning/Time Series Models
+### Economic Data
+
+ ##### GROSS DOMESTIC PRODUCT
+
+<img width="541" alt="Screen Shot 2021-09-02 at 11 19 02 PM" src="https://user-images.githubusercontent.com/80144026/131959519-d01d7b33-4bc4-4206-8104-5aa187d47fc2.png">
+
+ ##### POPULATION
+
+<img width="519" alt="Screen Shot 2021-09-02 at 11 19 53 PM" src="https://user-images.githubusercontent.com/80144026/131959570-4659f05a-4917-43a1-8b24-5268e20b7596.png">
+
+ ##### GROSS NATIONAL INCOME
+
+<img width="537" alt="Screen Shot 2021-09-02 at 11 20 27 PM" src="https://user-images.githubusercontent.com/80144026/131959660-fbdb58cf-c3fe-4b88-a2d8-47d52f255e3c.png">
+
+ ##### GINI INDEX
+
+<img width="530" alt="Screen Shot 2021-09-02 at 11 21 26 PM" src="https://user-images.githubusercontent.com/80144026/131959738-4efa18cd-7398-4b63-8739-afd50467b08c.png">
+
+ ##### INFLATION RATE
+
+<img width="526" alt="Screen Shot 2021-09-02 at 11 52 37 PM" src="https://user-images.githubusercontent.com/80144026/131963193-de8e2c0a-1a7c-4140-8689-268c415a8f05.png">
+
+
+
+---
+
+## Forecasting
+
+### Machine Learning/Time Series Models Used
 
 - Prophet
 - Theta
 - Linear Regression
 - Fast Fourier Transform
+
+#### DARTS
+ 
+  ###### METRICS
+ <img width="408" alt="Screen Shot 2021-09-02 at 11 23 15 PM" src="https://user-images.githubusercontent.com/80144026/131959907-7e4fea45-ff2b-47ea-8b45-7478679b1787.png">
+ <img width="432" alt="Screen Shot 2021-09-02 at 11 23 20 PM" src="https://user-images.githubusercontent.com/80144026/131959911-2e1eefa2-efd1-45f0-92ee-78573f2345e5.png">
+ 
+### Forecast Results Visualization
+  
+  ###### GINI INDEX
+
+ <img width="328" alt="Screen Shot 2021-09-02 at 11 25 39 PM" src="https://user-images.githubusercontent.com/80144026/131960151-65e64a9b-ee3c-4c9c-8adf-88e1f25cef2b.png">
+ 
+  ###### GDP
+  
+<img width="326" alt="Screen Shot 2021-09-02 at 11 25 48 PM" src="https://user-images.githubusercontent.com/80144026/131960160-a954cda3-2034-438e-a60e-4c6a378e52ff.png">
+
+
+
+#### FACEBOOK PROPHET
+
+ ###### GDP
+
+ 
+<img width="552" alt="Screen Shot 2021-09-02 at 11 49 03 PM" src="https://user-images.githubusercontent.com/80144026/131962747-f2540460-4e93-4f79-b052-4b8b4d6dcce2.png">
+
+
+ ###### GNI
+
+<img width="544" alt="Screen Shot 2021-09-02 at 11 30 21 PM" src="https://user-images.githubusercontent.com/80144026/131960939-9c295655-341b-4ff4-981b-145c521e4ac5.png">
+
+
+ ###### GINI INDEX
+
+<img width="561" alt="Screen Shot 2021-09-02 at 11 52 19 PM" src="https://user-images.githubusercontent.com/80144026/131963216-ab0c00ef-cfbb-4308-aba1-2244f56785ea.png">
+
+
+###### INFLATION RATE
+
+<img width="553" alt="Screen Shot 2021-09-02 at 11 34 49 PM" src="https://user-images.githubusercontent.com/80144026/131961064-d03345ad-1a4b-4358-88e4-432b793ae630.png">
+
 
 ___
 
@@ -64,14 +135,21 @@ ___
 
 - GDP: Linear Regression performs the best on training set split before 2005
 
+- The data shows that the Dollarization had a positive impact on El Salvador's economy.
+
+- Forecast results show that the economy of El Salvador will be on a positive trajectory in the next 10 years.
+
+___
 
 ## PART TWO: Remiitance
 
 
- El Salvador is a country whose economy relies heavily on international remittance,  a lifeline for millions.
+ ### El Salvador is a country whose economy relies heavily on international remittance,  a lifeline for millions.
  
-* Personal Remittances have steadily gone up since 1976, and in 2020 it was almost 25% of the country’s Gross Domestic Product
-* The average cost of sending remittances in El Salvador is between 2.5- 3.0% of the amount sent.
+<img width="1052" alt="Screen Shot 2021-08-31 at 2 19 26 PM" src="https://user-images.githubusercontent.com/80144026/131958446-543686d8-f96f-4833-92be-33ed449884bf.png">
+
+### STATISTICS
+
 * Total average monthly remittance received for the whole country  is $623.18 million dollars, that’s about 7.4 Billion dollars a year! And the  total cost to send is $186.954 to $224 million dollars a year.
 * Almost 1 of 5 of every Salvadorans receive remittances from abroad
 * 70% are women
@@ -82,12 +160,40 @@ ___
 * 21% have no access to running water
 * 5% have no access to bathroom facilities
 * 7% have no access to electricity
-* As mentioned earlier, 94% use it for consumption, 10% use it for educational expenses, 5% use it for healthcare expenses
+* Remnittace Use: 94% use it for consumption, 10% use it for educational expenses, 5% use it for healthcare expenses
 * Personal Remittances have steadily gone up since 1976, and in 2020 it was almost 25% of the country’s Gross Domestic Product
 
-### CRYPTO REMITTANCE APP, A solution that can help lower remittance fees, and increase personal remittance income for the benefiaciaries.
+<img width="694" alt="Screen Shot 2021-08-31 at 8 03 10 PM" src="https://user-images.githubusercontent.com/80144026/131958044-bb2b6f42-4f8f-48d7-bead-97e9ee8c887b.png">
 
-* This Crypto Remittance App allows friends and family to send cryptocurrency wherever they are in the world, has a simple built in  fiat currency conversion function.
+
+* The average cost of sending remittances in El Salvador is between 2.5- 3.0% of the amount sent.
+
+<img width="749" alt="Screen Shot 2021-08-31 at 8 02 46 PM" src="https://user-images.githubusercontent.com/80144026/131958059-364ab329-25e2-4952-a194-72adc1c5c36d.png">
+
+* The average monthly remittance for the entire country: $623.18 Million
+
+<img width="1088" alt="Screen Shot 2021-09-02 at 11 37 36 PM" src="https://user-images.githubusercontent.com/80144026/131961414-c21ad749-581d-4e59-92af-895c14d846f3.png">
+
+### With this information, we asked ourselves:
+
+
+*What if we can reduce the fees for the senders so they can send more money to the beneficaries? More money for food, education, basic services and healthcare?*
+
+___
+
+#### To solve this problem, we created THE CRYPTO REMITTANCE APP, a solution that can help lower remittance fees, and increase personal remittance income for the benefiaciaries. This application will allow friends and family to send cryptocurrency wherever they are in the world and it has a simple built in  fiat to cryptocurrency conversion function.
+
+<img width="1272" alt="Screen Shot 2021-08-31 at 2 50 22 PM" src="https://user-images.githubusercontent.com/80144026/131958160-8d6fc0b4-da18-481c-b1aa-350c03ed7412.png">
+
+
+### Watch how it works:
+
+
+https://user-images.githubusercontent.com/80144026/131958640-b6d8806a-1232-40d6-a5ef-43166846c29e.mov
+
+
+___
+
 
 ## Conclusion
 
@@ -99,7 +205,7 @@ ___
 
 ## Next Steps
 
-* Remittance App, to add functionalities like pull info from social media accounts, and currency conversion, and add a real time fiat to cryptocurrency conversion.
+* For the Crypto Remittance App, we want to add functionalities like pull info from social media accounts and from smart phone contacts, and add a real time fiat to cryptocurrency conversion.
 
 * Acquire more data for forecasting.
 
