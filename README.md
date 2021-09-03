@@ -37,6 +37,12 @@ ___
 * Trading Economics
 ___
 
+## Executive Summary
+
+In this project we analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation. We then created an app to lower the Remittance cost for the people of El Salvador.
+
+___
+
 ## Results and Analysis 
 
 - The inflation dataset had extremely high values for MAPE and almost zero values for MSE across all models, indicating overfitting. 
