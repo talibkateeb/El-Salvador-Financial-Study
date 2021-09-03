@@ -1,30 +1,32 @@
-# El SALVADOR FINANCIAL STUDY
+# El SALVADOR'S ROAD TO CRYPTOCURRENCY, AN ECONOMIC ANALYSIS
 ### A Machine Learning and Cryptocurrency Wallet Project
 ___
 
 ![672z311_1624612536_2021-06-25-10-15-36_bd8d86a1a8305bb40f40338ca257baad](https://user-images.githubusercontent.com/80144026/131263588-f9b3eb17-8d15-4811-a86d-4542a0b3d1ce.jpg)
 
-<img width="1604" alt="Crypto_remittance_app_logo" src="https://user-images.githubusercontent.com/80144026/131263595-d1f1f044-d28f-4125-ace4-42eec48a73ac.png">
-
 ## Presentation with Results and Analysis
 
 [Click here to view our full presentation with the results, analysis, and graphs!](https://prezi.com/view/EQjzqC6LXpAA5Wk5q0t5/)
+___
+
+## Executive Summary
+
+In this project,  we are conducting an analysis on El Salvador’s Road to Cryptocurrency.
+
+El Salvador is a country in Central America with about 6.5 million people. Their president is Nayib Bukele.
+
+In 2001, El Salvador adopted the Dollarization, which allowed the  US dollar to circulate at par with the local currency, the colón. 
+
+On September 7th, 2021, which is only 5 days from now, El Salvador will be the first nation in the world to adopt Bitcoin as one of their legal tenders.
+
+We chose  to study El Salvador because we’re very interested in how the Dollariation impacted its economy and what the Bitcoin adoption will bring to the country's economy moving forward.
 
 ___
 
-## Project Sections 
+## Project Sections
 
-* Time Series Forecasting  
-* Crypto Currency Remittance App
-
-___
-
-## Machine Learning/Time Series Models
-
-- Prophet
-- Theta
-- Linear Regression
-- Fast Fourier Transform
+PART ONE: We analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation.
+PART TWO: We surveyed the Remittance market in El Salvador, identified a problem and created a possible solution: A crypto remittance application to lower the  cost for the remittance senders and increase the remittance income of the people of El Salvador, which will increase benificiary spending which lifts the economy as a direct result.
 
 ___
 
@@ -35,15 +37,21 @@ ___
 * Statista
 
 * Trading Economics
-___
-
-## Executive Summary
-
-In this project we analyzed and forecasted the economic state of the nation of El Salvador. We examined different measurements such as GDP, GNI, Gini Index, etc. and created models to forecast these measurements to see how the adoption of Bitcoin as a legal tender will affect the nation. We then created an app to lower the Remittance cost for the people of El Salvador.
 
 ___
 
-## Results and Analysis 
+## PART ONE: Data Analysis and Forecasting
+
+### Machine Learning/Time Series Models
+
+- Prophet
+- Theta
+- Linear Regression
+- Fast Fourier Transform
+
+___
+
+### Analysis 
 
 - The inflation dataset had extremely high values for MAPE and almost zero values for MSE across all models, indicating overfitting. 
 
@@ -51,28 +59,50 @@ ___
 
 - Gini Index dataset: Prophet model performed the best, we use that to perfrom the forecast, it performed better on training set split before 2010
 
-- GDP: Linear Regression performs the best on training set split before 2005 
+- GDP: Linear Regression performs the best on training set split before 2005
 
 
-___
+## PART TWO: Remiitance
+
+
+ El Salvador is a country whose economy relies heavily on international remittance,  a lifeline for millions.
+ 
+* Personal Remittances have steadily gone up since 1976, and in 2020 it was almost 25% of the country’s Gross Domestic Product
+* The average cost of sending remittances in El Salvador is between 2.5- 3.0% of the amount sent.
+* Total average monthly remittance received for the whole country  is $623.18 million dollars, that’s about 7.4 Billion dollars a year! And the  total cost to send is $186.954 to $224 million dollars a year.
+* Almost 1 of 5 of every Salvadorans receive remittances from abroad
+* 70% are women
+* 79% of recipient households can be classified as poor or at risk of falling into poverty
+* Majority of the remittance benificiaries live in San Salvador
+* 43% are the vulnerable , 32.6% are poor, the mean remittance income is $195 US dollars
+* 28% have no formal education
+* 21% have no access to running water
+* 5% have no access to bathroom facilities
+* 7% have no access to electricity
+* As mentioned earlier, 94% use it for consumption, 10% use it for educational expenses, 5% use it for healthcare expenses
+* Personal Remittances have steadily gone up since 1976, and in 2020 it was almost 25% of the country’s Gross Domestic Product
+
+### CRYPTO REMITTANCE APP, A solution that can help lower remittance fees, and increase personal remittance income for the benefiaciaries.
+
+* This Crypto Remittance App allows friends and family to send cryptocurrency wherever they are in the world, has a simple built in  fiat currency conversion function.
 
 ## Conclusion
 
-El Salvador Bitcoin Law on September 7th, 2021
+* Based on our Analysis, the Dollarization impacted the economy of El Salvador positively.
 
-Based on the forecast we trust the most, the income equality in El Salvador should be dropping. Will the change in currency deter or speed up that outcome?
+* El Salvador Bitcoin Law will be implemented on  September 7th, 2021. Based on the forecast we trust the most, the income inequality in El Salvador should be decreasing. Will the adoption of Bitcoin as a legal tender deter or speed up that outcome? We will find out in a few years.
 
 ___
 
 ## Next Steps
 
-Remittance App, to add functionalities like pull info from social media accounts, and currency conversion.
+* Remittance App, to add functionalities like pull info from social media accounts, and currency conversion, and add a real time fiat to cryptocurrency conversion.
 
-Acquire more data for forecasting.
+* Acquire more data for forecasting.
 
-Hyperparameter optimization for models evaluated.
+* Hyperparameter optimization for models evaluated.
 
-Revisit our analysis in a few years.
+* Revisit our analysis in a few years.
 ___
 
 ## Technologies
