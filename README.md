@@ -19,7 +19,7 @@ In 2001, El Salvador adopted the Dollarization, which allowed the  US dollar to 
 
 On September 7, 2021, El Salvador will be the first nation in the world to adopt Bitcoin as a legal tender.
 
-We chose  to study El Salvador because we’re very interested in how the Dollariation impacted its economy and what the Bitcoin adoption will bring to the country moving forward.
+We chose  to study El Salvador because we’re very interested in how the Dollarization impacted its economy and what the Bitcoin adoption will bring to the country moving forward.
 
 ___
 
